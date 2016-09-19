@@ -58,6 +58,19 @@ Description of fltmgr!_FLT_OPERATION_REGISTRATION
  [u'+0x008', u'PreOperation', u' Ptr32     _FLT_PREOP_CALLBACK_STATUS '],
  [u'+0x00c', u'PostOperation', u' Ptr32     _FLT_POSTOP_CALLBACK_STATUS '],
  [u'+0x010', u'Reserved1', u' Ptr32 Void']]
+
+paul@lab:~/type_listing$ python type_listing.py 'fltmgr!_FLT_OPERATION_REGISTRATION' x64
+List:
+FLTMGR!_FLT_OPERATION_REGISTRATION
+
+FLTMGR!_FLT_OPERATION_REGISTRATION
+Description of fltmgr!_FLT_OPERATION_REGISTRATION
+[[u'+0x000', u'MajorFunction', u' UChar'],
+ [u'+0x004', u'Flags', u' Uint4B'],
+ [u'+0x008', u'PreOperation', u' Ptr64     _FLT_PREOP_CALLBACK_STATUS '],
+ [u'+0x010', u'PostOperation', u' Ptr64     _FLT_POSTOP_CALLBACK_STATUS '],
+ [u'+0x018', u'Reserved1', u' Ptr64 Void']]
+
 ```
 
 
