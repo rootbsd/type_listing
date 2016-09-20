@@ -62,7 +62,6 @@ paul@lab:~/type_listing$ python type_listing.py 'fltmgr!_FLT_OPERATION_REGISTRAT
 List:
 FLTMGR!_FLT_OPERATION_REGISTRATION
 
-FLTMGR!_FLT_OPERATION_REGISTRATION
 Description of fltmgr!_FLT_OPERATION_REGISTRATION
 [[u'+0x000', u'MajorFunction', u' UChar'],
  [u'+0x004', u'Flags', u' Uint4B'],
